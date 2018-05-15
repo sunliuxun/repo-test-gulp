@@ -1,0 +1,10 @@
+Q: What is the ** glob character?
+A: 
+/x/*/y will match:
+
+/x/a/y
+/x/b/y
+
+/x/**/y will also match things like:
+
+/x/any/number/of/levels/y
